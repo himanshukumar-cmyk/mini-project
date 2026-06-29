@@ -17,23 +17,23 @@ header{
     justify-content: space-between;
     align-items: center;
     background-color: #1E1E1E;
-    padding: 5px 20px;
+    padding: .3125rem 1.25rem;
 }
 
 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 #logoimg{
-    height: 55px;
-    width: 55px;
+    height: 3.4375rem;
+    width: 3.4375rem;
     background: url(logo.png);
     background-size: cover;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: .625rem;
 }
 
 #logoName{
@@ -67,12 +67,12 @@ nav a:active{
 }
 
 .booking button {
-    width: 100px;
-    height: 35px;
-    margin-right: 20px;
+    width: 6.25rem;
+    height: 2.1875rem;
+    margin-right: 1.25rem;
     background-color: #B73A2F;
     border: none;
-    border-radius: 5px;
+    border-radius: .3125rem;
     color: #fff;
     cursor: pointer;
     transition: 0.3s;
@@ -91,7 +91,7 @@ nav a:active{
     display: flex;
     align-items: center;
     width: 100%;
-    height:350px;
+    height:21.875rem;
     background-color: #1E1E1E;
 }
 
@@ -102,13 +102,13 @@ nav a:active{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding:0 60px;
+    padding:0 3.75rem;
 }
 
 .heroContent p{
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 200;
-    max-width:450px;
+    max-width:28.125rem;
     width:100%;
 }
 
@@ -117,18 +117,18 @@ p i{
 }
 
 .heroContent span{
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 500;
 }
 
 .button button{
-    width: 100px;
-    height: 35px;
-    margin-right: 10px;
-    margin-top: 20px;
+    width: 6.25rem;
+    height: 2.1875rem;
+    margin-right: .625rem;
+    margin-top: 1.25rem;
     background-color: #B73A2F;
     border: none;
-    border-radius: 5px;
+    border-radius: .3125rem;
     color: #fff;
     cursor: pointer;
     transition: 0.3s;
@@ -149,26 +149,26 @@ p i{
 
 .whyUS div h2{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .cards{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    gap: 30px;
+    margin-top: 1.25rem;
+    gap: 1.875rem;
     flex-wrap: wrap;
 }
 
 .card{
-    width: 250px;
+    width: 15.625rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
     transition: 0.3s ease;
 }
 
@@ -177,26 +177,26 @@ p i{
 }
 
 .cardIcon{
-    height: 80px;
-    width:80px;
+    height: 5rem;
+    width:5rem;
     background-color: #f5eadd;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .cardIcon span{
-    font-size: 50px;
+    font-size: 3.125rem;
     color: #903a12ec;
 }
 
 .ourDishes{
-    margin-top: 20px;
+    margin-top: 1.25rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .dishes{
@@ -204,34 +204,35 @@ p i{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    margin-top: 40px;
+    gap: 3.125rem;
+    margin-top: 2.5rem;
     flex-wrap: wrap;
 }
 
 .dish{
-    width: 200px;
+    width: 12.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 20px;
-    border-radius: 20px;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+    padding-bottom: 1.25rem;
+    border-radius: 1.25rem;
+    box-shadow: 0rem .3125rem .625rem rgba(0,0,0,0.3);
     transition: 0.3s ease;
 }
 
 .dish:hover{
     transform: scale(1.04);
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+    box-shadow: 0rem .625rem .625rem rgba(0,0,0,0.3);
 }
 
 .dishimg{
-    width: 180px;
-    height: 180px;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 11.25rem;
+    height: 11.25rem;
+    border-radius: .625rem;
+    margin-top: .625rem;
+    margin-bottom: .625rem;
+    background-position: center;
 }
 
 .dish1{
@@ -255,29 +256,29 @@ p i{
 }
 
 .offer{
-    background: url(special.png);
-    background-size: cover;
     width: 100%;
-    height: 380px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    min-height: 24rem;
+    background: url(special.png) center center no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    margin: 1.5rem 0;
 }
 
 .chefs{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
     text-align: center;
 }
 
 .chefimg{
-    height: 120px;
-    width:120px;
+    height: 7.5rem;
+    width:7.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .chef1{
@@ -298,17 +299,17 @@ p i{
 .review{
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 21.875rem;
     background-color: #f1e7db;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
+    margin: 1.25rem;
+    padding: 1.25rem;
+    border-radius: 1.25rem;
     transition: 0.3s ease;
 }
 
 .review:hover{
     transform: scale(1.04);
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+    box-shadow: 0rem .625rem .625rem rgba(0,0,0,0.3);
 }
 
 .reviews{
@@ -319,98 +320,102 @@ p i{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
     flex-wrap: wrap;
 
 }
 
 .gallery h2{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .images{
     display:flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+    margin:30px auto;
+    padding:0 20px;
 }
 
 .images img{
-    height: 150px;
-    width: 200px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
-    transition: 0.3s ease;
+    width:100%;
+    max-width:320px;
+    aspect-ratio:4/3;
+    height:auto;
+    object-fit:cover;
+    border-radius:10px;
+    box-shadow:0 5px 10px rgba(0,0,0,.3);
+    transition:.3s ease;
 }
 
 .images img:hover{
-    transform: scale(1.03);
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+    transform: scale(1.04);
+    box-shadow: 0rem .625rem .625rem rgba(0,0,0,0.3);
 }
 
 .contact{
-    padding:70px 8%;
+    padding:4.375rem 8%;
     background:#f8f4ee;
 }
 
 .contact h2{
     text-align:center;
-    margin-bottom:40px;
-    font-size:2rem;
+    margin-bottom:2.5rem;
+    font-size:32px;
     color:#1E1E1E;
 }
 
 .contact-container{
     display:flex;
     justify-content:space-between;
-    gap:50px;
+    gap:3.125rem;
     flex-wrap:wrap;
 }
 
 .contact-info{
     flex:1;
-    min-width:280px;
+    min-width:17.5rem;
 }
 
 .contact-info h3{
-    margin-bottom:20px;
+    margin-bottom:1.25rem;
     color:#B73A2F;
 }
 
 .contact-info p{
-    margin-bottom:18px;
-    font-size:17px;
+    margin-bottom:1.125rem;
+    font-size:1.0625rem;
     color:#444;
     display:flex;
     align-items:center;
-    gap:12px;
+    gap:.75rem;
 }
 
 .contact-info i{
     color:#B73A2F;
-    font-size:20px;
+    font-size:1.25rem;
 }
 
 .contact-form{
     flex:1;
-    min-width:300px;
+    min-width:18.75rem;
+    width:100%;
     display:flex;
     flex-direction:column;
-    gap:18px;
+    gap:1.125rem;
 }
 
 .contact-form input,
 .contact-form textarea{
     width:100%;
-    padding:15px;
-    border:1px solid #ddd;
-    border-radius:8px;
-    font-size:16px;
+    padding:.9375rem;
+    border:.0625rem solid #ddd;
+    border-radius:.5rem;
+    font-size:1rem;
     outline:none;
 }
 
@@ -420,14 +425,14 @@ p i{
 }
 
 .contact-form button{
-    width:180px;
-    padding:14px;
+    width:11.25rem;
+    padding:.875rem;
     background:#B73A2F;
     color:white;
     border:none;
-    border-radius:8px;
+    border-radius:.5rem;
     cursor:pointer;
-    font-size:16px;
+    font-size:1rem;
     transition:.3s;
 }
 
@@ -439,25 +444,26 @@ footer{
     background-color: #ede8e8ea;
     color: rgb(0,0,0);
     text-align: center;
-    padding: 10px;
-    font-size: 14px;
+    padding: .625rem;
+    font-size: .875rem;
     margin-top: auto;
 }
 
-@media screen and (max-width:992px){
+
+@media screen and (max-width:64.0625rem){
 
 header{
-    padding:12px 30px;
+    padding:.75rem 1.875rem;
 }
 
 nav{
-    max-width:28rem;
+    max-width:448px;
 }
 
 .heroSection{
     flex-direction:column;
     height:auto;
-    padding:50px 30px;
+    padding:3.125rem 1.875rem;
 }
 
 .heroContent{
@@ -468,23 +474,23 @@ nav{
 
 .heroContent p{
     width:100%;
-    max-width:650px;
+    max-width:40.625rem;
 }
 
 .heroContent span{
-    font-size:38px;
+    font-size:2.375rem;
 }
 
 .heroImg{
     width:100%;
-    height:420px;
+    height:26.25rem;
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
 }
 
 .offer{
-    height:240px;
+    min-height:15rem;
 }
 
 .review{
@@ -492,16 +498,16 @@ nav{
 }
 
 .images img{
-    width:220px;
-    height:160px;
+    width:13.75rem;
+    height:10rem;
 }
 
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:48rem){
 
 header{
-    padding:12px 20px;
+    padding:.75rem 1.25rem;
 }
 
 nav,
@@ -511,13 +517,13 @@ nav,
 
 .hamburger{
     display:block;
-    font-size:30px;
+    font-size:1.875rem;
 }
 
 .heroSection{
     flex-direction:column;
     height:auto;
-    padding:40px 20px;
+    padding:2.5rem 1.25rem;
 }
 
 .heroContent{
@@ -527,24 +533,24 @@ nav,
 }
 
 .heroContent span{
-    font-size:32px;
+    font-size:2rem;
 }
 
 .heroContent p{
     width:100%;
-    font-size:18px;
+    font-size:1.125rem;
 }
 
 .heroImg{
     width:100%;
-    height:300px;
+    height:18.75rem;
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
 }
 
 .cards{
-    gap:25px;
+    gap:1.5625rem;
 }
 
 .card{
@@ -552,12 +558,11 @@ nav,
 }
 
 .dish{
-    width:280px;
+    width:17.5rem;
 }
 
 .offer{
-    height:180px;
-    background-position:center;
+    min-height:12rem;
 }
 
 .customer{
@@ -566,20 +571,20 @@ nav,
 
 .review{
     width:90%;
-    margin:10px 0;
+    margin:.625rem 0;
 }
 
 .images{
-    gap:15px;
+    gap:.9375rem;
 }
 
 .images img{
     width:45%;
-    height:140px;
+    height: 8.75rem;
 }
 
 .contact{
-    padding:50px 20px;
+    padding:3.125rem 1.25rem;
 }
 
 .contact-container{
@@ -590,37 +595,36 @@ nav,
     width:100%;
 }
 
-
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:30rem){
 
 .logo{
     margin-left:0;
 }
 
 #logoimg{
-    width:45px;
-    height:45px;
+    width:2.8125rem;
+    height:2.8125rem;
 }
 
 #logoName h2{
-    font-size:22px;
+    font-size:1.375rem;
 }
 
 .heroContent span{
-    font-size:28px;
+    font-size:1.75rem;
 }
 
 .heroContent p{
-    font-size:16px;
+    font-size:1rem;
 }
 
 .button{
     display:flex;
     flex-direction:column;
     width:100%;
-    gap:15px;
+    gap:.9375rem;
 }
 
 .button button{
@@ -628,7 +632,7 @@ nav,
 }
 
 .heroImg{
-    height:220px;
+    height:13.75rem;
 }
 
 .dish{
@@ -640,21 +644,23 @@ nav,
 }
 
 .offer{
-    height:120px;
+    min-height: 6.875rem;
 }
 
 .images img{
     width:100%;
-    height:180px;
+    max-width:100%;
+    aspect-ratio:4/3;
+    height:auto;
 }
 
 .review{
     width:100%;
-    padding:15px;
+    padding:.9375rem;
 }
 
 footer{
-    font-size:13px;
+    font-size:.8125rem;
 }
 
 }
